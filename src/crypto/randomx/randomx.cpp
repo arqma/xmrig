@@ -70,6 +70,36 @@ RandomX_ConfigurationWownero::RandomX_ConfigurationWownero()
 	fillAes4Rx4_Key[7] = fillAes4Rx4_Key[3];
 }
 
+RandomX_ConfigurationARQ::RandomX_ConfigurationARQ()
+{
+	ArgonSalt = "RandomARQ\x03";
+	ProgramIterations = 1024;
+	ProgramSize = 256;
+	ProgramCount = 8;
+	ArgonIterations = 3;
+	ArgonLanes = 1;
+	ScratchpadL2_Size = 262144;
+	ScratchpadL3_Size = 262144;
+
+#define RANDOMX_FREQ_IADD_RS       16
+#define RANDOMX_FREQ_IADD_M         7
+#define RANDOMX_FREQ_ISUB_R        16
+#define RANDOMX_FREQ_ISUB_M         7
+#define RANDOMX_FREQ_IMUL_R        16
+#define RANDOMX_FREQ_IMUL_M         4
+#define RANDOMX_FREQ_IMULH_R        4
+#define RANDOMX_FREQ_IMULH_M        1
+#define RANDOMX_FREQ_ISMULH_R       4
+#define RANDOMX_FREQ_ISMULH_M       1
+#define RANDOMX_FREQ_IMUL_RCP       8
+#define RANDOMX_FREQ_INEG_R         2
+#define RANDOMX_FREQ_IXOR_R        15
+#define RANDOMX_FREQ_IXOR_M         5
+#define RANDOMX_FREQ_IROR_R         8
+#define RANDOMX_FREQ_IROL_R         2
+#define RANDOMX_FREQ_ISWAP_R        4
+}
+
 RandomX_ConfigurationLoki::RandomX_ConfigurationLoki()
 {
 	ArgonIterations = 4;

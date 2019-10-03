@@ -44,6 +44,10 @@ const RandomX_ConfigurationBase *xmrig::RxAlgo::base(Algorithm::Id algorithm)
     case Algorithm::RX_WOW:
         return &RandomX_WowneroConfig;
 
+    case Algorithm::RX_ARQ:
+        return &RandomX_ARQConfig;
+        break;
+
     case Algorithm::RX_LOKI:
         return &RandomX_LokiConfig;
         break;
