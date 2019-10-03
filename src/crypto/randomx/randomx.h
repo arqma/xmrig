@@ -180,7 +180,7 @@ struct RandomX_ConfigurationLoki : public RandomX_ConfigurationBase { RandomX_Co
 
 extern RandomX_ConfigurationMonero RandomX_MoneroConfig;
 extern RandomX_ConfigurationWownero RandomX_WowneroConfig;
-extern RandomX_ConfigurationWownero RandomX_ARQConfig;
+extern RandomX_ConfigurationARQ RandomX_ARQConfig;
 extern RandomX_ConfigurationLoki RandomX_LokiConfig;
 
 extern RandomX_ConfigurationBase RandomX_CurrentConfig;
