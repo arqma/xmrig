@@ -72,7 +72,7 @@ RandomX_ConfigurationWownero::RandomX_ConfigurationWownero()
 
 RandomX_ConfigurationARQ::RandomX_ConfigurationARQ()
 {
-	ArgonSalt = "RandomARQ\x03";
+	ArgonSalt = "RandomARQ\x01";
 	ProgramIterations = 1024;
 	ProgramSize = 256;
 	ProgramCount = 8;

@@ -108,10 +108,10 @@ static AlgoName const algorithm_names[] = {
     { "RandomX",                   "rx",               Algorithm::RX_0            },
     { "randomx/wow",               "rx/wow",           Algorithm::RX_WOW          },
     { "RandomWOW",                 nullptr,            Algorithm::RX_WOW          },
+    { "randomx/arq",               "rx/arq",           Algorithm::RX_ARQ          },
+    { "RandomARQ",                 nullptr,            Algorithm::RX_ARQ          },
     { "randomx/loki",              "rx/loki",          Algorithm::RX_LOKI         },
     { "RandomXL",                  nullptr,            Algorithm::RX_LOKI         },
-    { "randomx/arq",              "rx/arq",            Algorithm::RX_ARQ          },
-    { "RandomARQ",                  nullptr,           Algorithm::RX_ARQ          },
     { "DefyX",                     "defyx",            Algorithm::DEFYX           },
 #   endif
 #   ifdef XMRIG_ALGO_ARGON2
