@@ -78,7 +78,7 @@ RandomX_ConfigurationARQ::RandomX_ConfigurationARQ()
 	ProgramCount = 8;
 	ArgonIterations = 3;
 	ArgonLanes = 1;
-	ScratchpadL2_Size = 262144;
+	ScratchpadL2_Size = 131072;
 	ScratchpadL3_Size = 262144;
 
 RANDOMX_FREQ_IADD_RS = 16;
